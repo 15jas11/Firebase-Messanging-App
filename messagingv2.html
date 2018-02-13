@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>QHacks Messaging App</title>
+    <link rel="stylesheet" href="./messagev2Style.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+    <script src="messagingFunctions.js"/></script>
+    <div id="banner">
+      <img src="./resources/qhackslogo.png" style="width:150px;">
+    </div>
+
+  </head>
+
+  <body>
+    <div id="sideBar">
+      <ul>
+        <li><a>Log-Out</a></li>
+        <li><a>Add Device<a></li>
+        <li><a>Clear Messages</a></li>
+        <li><a>Settings</a></li>
+      </ul>
+    </div>
+
+    <!--<p id="textField"></p>
+    <div id="input"/>
+      <label id = "formLabel">Enter Message</label>
+      <br/>
+      <input type="text" id = "string"/>
+      <br/>
+      <button onclick="submitString()">Send</button>
+    </div>-->
+
+    <div class="board">
+      <ul id="bigOne"></ul>
+      <input id="string" type="text" value="Empty input Area"></input>
+      <button onClick="submitString()">Send</button>
+    </div>
+  </body>
+
+</html>
